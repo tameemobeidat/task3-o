@@ -6,39 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>preceding text</h1>
-    <ol type="I">
-        <li>List Item 1
-            <ol type="a">
-                <li>Nested Item 1.1</li>
-                <li>Nested Item 1.2</li>
-          </ol></li><br>
-        <li>List Item 2
-            <ol type="1">
-                <li>Nested Item 2.1</li>
-                <li>Nested Item 2.2
-                    <ul type="circle">
-                        <li >Nested Item 2.2.1</li>
-                        <li>Nested Item 2.2.2
-                            <ul type="square">
-                                <li >Nested Item 2.2.2.1</li>
-                                <li>Nested Item 2.2.2.2</li>
-                            </ul>
-                        </li>
-                        <li>Nested Item 2.2.3</li>
-                    </ul>
-                    <li>Nested Item 2.3</li><br>
-                </li>
+    <form >
+        <fieldset>
+            <legend>Personal details</legend><br>
+            <label for="">First name</label>
+            <input type="email" placeholder="soso@gmail.com"><br>
+            <label for="">Last name</label>
+            <input type="password" placeholder="***"><br>
+            <label for="">Email</label>
+            <input type="text"><br>
+            <label for="">Gender</label>
+            <input type="radio" value="male" name="r1" id="radio1">
+            <label for="radio1">male</label>
+            <input type="radio" value="female" name="r1" id="radio2">
 
-            </ol>
-        </li>
-        <li>  List Item 3
-            <ul type="square">
-                <li>Nested Item 3.1</li>
-                <li>Nested Item 3.2</li>
-                <li>Nested Item 3.3</li>
-            </ul>
-        </li>
-    </ol>
+            <label for="radio2">female</label><br>
+            <select name="" id="">City
+                <option value="">Amman</option>
+                <option value="">irbid</option>
+                <option value="">safawi</option>
+                <option value="">azraq</option>
+              
+            </select><br><br>
+              <button>sign up</button>
+        </fieldset>
+    </form>
 </body>
 </html>
